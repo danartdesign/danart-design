@@ -1,0 +1,202 @@
+/* 
+Project Name: Startup Matchmaker Website + Bonus Assignment
+Client: Leon Noel (Instructor)
+Author: Danart Ros (Developer @GA in NYC & BOSTON)
+*/
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right; 
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left; 
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+head {
+    
+}
+body {
+    background-image: url("../tara/nebula.jpg");
+    background-position: top center;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+	width: 1024px;
+/*    height: 768px;    */
+	margin: auto;
+}
+
+header {
+    width: 1280px;
+    height: 1px;
+    margin-left: 128px;
+
+}
+
+section {
+    width: 1024px;
+    height: auto;
+    /*
+    position: fixed;
+    top: 100px;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    */
+
+}
+    
+
+span {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Strait', sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+
+footer {
+    width: 1280px;
+    height: 1px;
+    margin-left: 128px;
+
+}
+
+/******************************************
+/* INDEX.HTML PAGE ADDITIONAL STYLES                   
+/*******************************************/
+
+/******************************************
+/* INDEX.HTML PAGE ID & CLASS STYLES                   
+/*******************************************/
+.tabOne {
+    color: white;
+    float: left;
+    width: 256px;
+    height: 90px;
+    padding: 34px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    background-color: rgba(0,0,0,1.00);
+}
+
+.tabOne:hover {
+    color: black;
+    background-color: rgba(255,255,255,0.50);
+    /* background-color: rgba(40,229,222,0.25); */
+}
+
+.tabOneMain {
+    color: white;
+    float: center;
+    width: 1024px;
+    /* height: 669px; */
+    height: 453px;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,0.50);
+    border: 10px solid pink;
+}
+
+.tabOneMain:nth-child(1) {
+    margin-top: 100px;
+
+}
+
+.tabOneMain:nth-child(8) {
+    margin-bottom: 90px;
+
+}
+
+header>div:nth-child(4) {
+    border-right: 1px solid white;
+}
+
+footer>div:nth-child(4) {
+    border-right: 1px solid white;
+}
+.venusOne {
+    color: black;
+    float: left;
+    margin: 100px 10px 20px 512px;
+}
+
+.mainImage {
+    width: 1004px;
+    height: auto;
+}
+
+/*
+
+Questions:
+
+1. How do I scale the background Image when changing screen
+resolutions?
+
+2. How do I give it a Min Width and Height so that when you 
+make the screen smaller a message pops up that you have to r
+esize the screen?
+
+3. how do I make the Main Section not go under the the fixed
+header and footer bar and start and end where section begins 
+and ends? 
+
+4. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
